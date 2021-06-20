@@ -13,8 +13,6 @@
 #define CLEAR_COMMAND 0x002
  
 using namespace std;
-
-WindowManager wm;
  
 void render();
 void framebufferSizeCallback(int width, int height);
@@ -22,6 +20,7 @@ void cursePoscallback(int x, int y);
 void mouseButtonCallback(int button, int state, int x, int y);
 void menuCallback(int menuItemNum);
 
+WindowManager wm;
 int WIDTH = 800, HEIGHT = 600;
 bool clickStatus = false;
 int firstClickPosX, firstClickPosY;
