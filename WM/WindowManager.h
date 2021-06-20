@@ -16,6 +16,7 @@ class WindowManager {
     void popElem();
     void clearAll();
     void drawAll();
+    int size();
     
     private:
     std::vector<Drawable*> *elems;
