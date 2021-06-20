@@ -7,7 +7,9 @@ link_libraries("libfreeglut.a" "glew32.lib" "opengl32.lib" "glu32.lib")
 
 aux_source_directory(. SOURCE_LIST)
 aux_source_directory(./Elems SOURCE_LIST)
+aux_source_directory(./Elems/Circle SOURCE_LIST)
 aux_source_directory(./Elems/Line SOURCE_LIST)
+
 aux_source_directory(./WM SOURCE_LIST)
 
 add_executable(2D_Line_Drawing "${SOURCE_LIST}")
