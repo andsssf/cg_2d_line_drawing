@@ -1,5 +1,5 @@
 #include "GL/glew.h"
-#include "Line_DDA.h"
+#include "Elems/Line_DDA.h"
 
 void Line_DDA::draw() {
     float m = (float)(p2.y - p1.y) / (p2.x - p1.x);
