@@ -12,7 +12,6 @@ void render()
 	glClearColor(0, 1, 0, 0);
 	wm.drawAll();
 	glFlush();
-	cout << "render" << endl;
 }
 
 int main(int argc,char** argv)
